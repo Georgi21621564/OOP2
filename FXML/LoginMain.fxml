@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="469.0" prefWidth="646.0" style="-fx-background-color: #172d45;" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXML.LoginMain">
+   <children>
+      <TextField alignment="CENTER" layoutX="196.0" layoutY="228.0" prefHeight="30.0" prefWidth="240.0" promptText="Потребителско име">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <PasswordField alignment="CENTER" layoutX="196.0" layoutY="293.0" prefHeight="30.0" prefWidth="240.0" promptText="Парола">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </PasswordField>
+      <Button layoutX="499.0" layoutY="29.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="106.0" style="-fx-background-color: #151928; -fx-background-color: #a0a2ab;" text="Регистрация">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="356.0" layoutY="350.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="80.0" style="-fx-background-color: #2196f3;" text="Вход" textFill="#f7f7f7">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <CheckBox layoutX="196.0" layoutY="356.0" mnemonicParsing="false" text="Запомни ме" textFill="#a0a2ab" />
+      <Button layoutX="479.0" layoutY="404.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="146.0" style="-fx-background-color: #a0a2ab; -fx-background-color: #172d45;" text="Забравена парола?" textFill="#ece7e7" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="112.0" fitWidth="146.0" layoutX="265.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Downloads/rent-a-car-high-resolution-logo-transparent.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="37.0" layoutX="153.0" layoutY="228.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Downloads/png-transparent-computer-icons-user-avatar-login-employee-heroes-head-silhouette-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="37.0" layoutX="153.0" layoutY="293.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Downloads/login-page-password-removebg-preview.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
