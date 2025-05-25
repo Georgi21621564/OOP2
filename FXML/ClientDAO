@@ -1,0 +1,16 @@
+package com.example.varnarental;
+
+import util.DatabaseConnection;
+import java.sql.*;
+
+public class ClientDAO {
+    public void createClient(String name, String phone) throws SQLException {
+        String sql = "INSERT INTO clients(name, phone) VALUES (?, ?)";
+        try (Connection conn = DatabaseConnection.getConnection();
+             PreparedStatement stmt = conn.prepareStatement(sql)) {
+            stmt.setString(1, name);
+            stmt.setString(2, phone);
+            stmt.executeUpdate();
+        }
+    }
+}
