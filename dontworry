@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Companies.fxml -->
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox xmlns:fx="http://javafx.com/fxml" alignment="CENTER" spacing="10">
+    <Label text="Manage Companies" />
+    <TextField promptText="Company Name" />
+    <Button text="Add Company" />
+    <Button text="Delete Selected Company" />
+    <TableView fx:id="companyTable" prefHeight="200" />
+</VBox>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Operators.fxml -->
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox xmlns:fx="http://javafx.com/fxml" alignment="CENTER" spacing="10">
+    <Label text="Manage Operators" />
+    <TextField promptText="Username" />
+    <PasswordField promptText="Password" />
+    <Button text="Add Operator" />
+    <Button text="Delete Selected Operator" />
+    <TableView fx:id="operatorTable" prefHeight="200" />
+</VBox>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RegisterCar.fxml -->
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane xmlns:fx="http://javafx.com/fxml" hgap="10" vgap="10" alignment="CENTER">
+    <Label text="Brand" GridPane.rowIndex="0" GridPane.columnIndex="0" />
+    <TextField fx:id="brandField" GridPane.rowIndex="0" GridPane.columnIndex="1" />
+    <Label text="Model" GridPane.rowIndex="1" GridPane.columnIndex="0" />
+    <TextField fx:id="modelField" GridPane.rowIndex="1" GridPane.columnIndex="1" />
+    <Label text="Class" GridPane.rowIndex="2" GridPane.columnIndex="0" />
+    <TextField fx:id="classField" GridPane.rowIndex="2" GridPane.columnIndex="1" />
+    <Label text="Category" GridPane.rowIndex="3" GridPane.columnIndex="0" />
+    <TextField fx:id="categoryField" GridPane.rowIndex="3" GridPane.columnIndex="1" />
+    <Label text="Features" GridPane.rowIndex="4" GridPane.columnIndex="0" />
+    <TextField fx:id="featuresField" GridPane.rowIndex="4" GridPane.columnIndex="1" />
+    <CheckBox fx:id="smokerBox" text="Smoker Allowed" GridPane.rowIndex="5" GridPane.columnIndex="1" />
+    <Button text="Register Car" GridPane.rowIndex="6" GridPane.columnIndex="1" />
+</GridPane>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- AvailableCars.fxml -->
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox xmlns:fx="http://javafx.com/fxml" alignment="CENTER" spacing="10">
+    <Label text="Available Cars" />
+    <TableView fx:id="availableCarsTable" prefHeight="400" />
+</VBox>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Clients.fxml -->
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox xmlns:fx="http://javafx.com/fxml" alignment="CENTER" spacing="10">
+    <Label text="Manage Clients" />
+    <TextField promptText="Client Name" />
+    <TextField promptText="Phone" />
+    <Button text="Add Client" />
+    <Button text="Delete Selected Client" />
+    <TableView fx:id="clientTable" prefHeight="200" />
+</VBox>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RentCar.fxml -->
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane xmlns:fx="http://javafx.com/fxml" hgap="10" vgap="10" alignment="CENTER">
+    <Label text="Client ID" GridPane.rowIndex="0" GridPane.columnIndex="0" />
+    <TextField fx:id="clientIdField" GridPane.rowIndex="0" GridPane.columnIndex="1" />
+    <Label text="Car ID" GridPane.rowIndex="1" GridPane.columnIndex="0" />
+    <TextField fx:id="carIdField" GridPane.rowIndex="1" GridPane.columnIndex="1" />
+    <Button text="Rent Car" GridPane.rowIndex="2" GridPane.columnIndex="1" />
+</GridPane>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ReturnCar.fxml -->
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane xmlns:fx="http://javafx.com/fxml" hgap="10" vgap="10" alignment="CENTER">
+    <Label text="Rental ID" GridPane.rowIndex="0" GridPane.columnIndex="0" />
+    <TextField fx:id="rentalIdField" GridPane.rowIndex="0" GridPane.columnIndex="1" />
+    <Label text="Kilometers" GridPane.rowIndex="1" GridPane.columnIndex="0" />
+    <TextField fx:id="kmField" GridPane.rowIndex="1" GridPane.columnIndex="1" />
+    <Label text="Damages" GridPane.rowIndex="2" GridPane.columnIndex="0" />
+    <TextField fx:id="damageField" GridPane.rowIndex="2" GridPane.columnIndex="1" />
+    <Button text="Return Car" GridPane.rowIndex="3" GridPane.columnIndex="1" />
+</GridPane>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- PriceCalculator.fxml -->
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox xmlns:fx="http://javafx.com/fxml" alignment="CENTER" spacing="10">
+    <Label text="Calculate Rental Price" />
+    <TextField fx:id="rentalIdField" promptText="Rental ID" />
+    <Button text="Calculate" />
+    <Label fx:id="resultLabel" text="" />
+</VBox>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RentalHistory.fxml -->
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox xmlns:fx="http://javafx.com/fxml" alignment="CENTER" spacing="10">
+    <Label text="Rental History" />
+    <TableView fx:id="rentalTable" prefHeight="400" />
+</VBox>
