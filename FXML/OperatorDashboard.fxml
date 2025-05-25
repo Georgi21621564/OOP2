@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="controller.OperatorDashboardController" alignment="CENTER" spacing="10">
+    <Button fx:id="clientButton" text="Manage Clients" />
+    <Button fx:id="registerCarButton" text="Register New Automobile" />
+    <Button fx:id="rentCarButton" text="Rent Car to Client" />
+    <Button fx:id="returnCarButton" text="Return Vehicle & Status" />
+    <Button fx:id="priceCalcButton" text="Calculate Price Due" />
+    <Button fx:id="historyButton" text="View Rental History" />
+</VBox>
