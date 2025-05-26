@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane cache="true" cacheHint="QUALITY" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fontSmoothingType="LCD" layoutX="74.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin Panel" textAlignment="CENTER" wrappingWidth="452.5366516113281">
+         <font>
+            <Font name="Monotype Corsiva" size="47.0" />
+         </font>
+      </Text>
+      <GridPane alignment="CENTER" layoutX="201.0" layoutY="89.0" prefHeight="278.0" prefWidth="198.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <ComboBox fx:id="classComboBox" prefWidth="150.0" promptText="Car Class" />
+            <ComboBox fx:id="categoryComboBox" prefWidth="150.0" promptText="Category" GridPane.rowIndex="1" />
+            <TextField fx:id="makeField" prefHeight="26.0" prefWidth="108.0" promptText="Make" GridPane.rowIndex="2" />
+            <TextField fx:id="modelField" promptText="Model" GridPane.rowIndex="3" />
+            <CheckBox fx:id="smokingCheckbox" mnemonicParsing="false" text="Smoking Allowed" GridPane.rowIndex="4" />
+            <Button id="signin" blendMode="MULTIPLY" mnemonicParsing="false" onAction="#handleRegisterCar" prefHeight="43.0" prefWidth="175.0" text="Register" textOverrun="CLIP" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <effect>
+                  <DropShadow blurType="GAUSSIAN" height="5.79" radius="2.6875" spread="0.73" width="6.96">
+                     <color>
+                        <Color red="0.5473684072494507" green="0.5433138608932495" blue="0.5433138608932495" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Button>
+         </children>
+      </GridPane>
+   </children>
+   <effect>
+      <DropShadow height="122.24" radius="58.864999999999995" spread="0.21" width="115.22">
+         <color>
+            <Color red="0.7894737124443054" green="0.7836257219314575" blue="0.7836257219314575" />
+         </color>
+      </DropShadow>
+   </effect>
+</AnchorPane>

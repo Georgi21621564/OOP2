@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane cache="true" cacheHint="QUALITY" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fontSmoothingType="LCD" layoutX="74.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin Panel" textAlignment="CENTER" wrappingWidth="452.5366516113281">
+         <font>
+            <Font name="Monotype Corsiva" size="47.0" />
+         </font>
+      </Text>
+      <VBox layoutX="211.0" layoutY="96.0" prefHeight="235.0" prefWidth="178.0" spacing="15.0">
+         <children>
+            <Button id="signin" blendMode="MULTIPLY" mnemonicParsing="false" onAction="#handleRegisterCar" prefHeight="43.0" prefWidth="175.0" text="Manage Clients" textOverrun="CLIP">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <effect>
+                  <DropShadow blurType="GAUSSIAN" height="5.79" radius="2.6875" spread="0.73" width="6.96">
+                     <color>
+                        <Color red="0.5473684072494507" green="0.5433138608932495" blue="0.5433138608932495" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Button>
+            <Button id="signin" blendMode="MULTIPLY" mnemonicParsing="false" onAction="#handleRentCar" prefHeight="43.0" prefWidth="175.0" text="Rent a Car" textOverrun="CLIP">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <effect>
+                  <DropShadow blurType="GAUSSIAN" height="5.79" radius="2.6875" spread="0.73" width="6.96">
+                     <color>
+                        <Color red="0.5473684072494507" green="0.5433138608932495" blue="0.5433138608932495" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Button>
+            <Button id="signin" blendMode="MULTIPLY" mnemonicParsing="false" onAction="#handleReturnCar" prefHeight="43.0" prefWidth="175.0" text="Return a Car" textOverrun="CLIP">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <effect>
+                  <DropShadow blurType="GAUSSIAN" height="5.79" radius="2.6875" spread="0.73" width="6.96">
+                     <color>
+                        <Color red="0.5473684072494507" green="0.5433138608932495" blue="0.5433138608932495" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Button>
+            <Button id="signin" blendMode="MULTIPLY" mnemonicParsing="false" onAction="#handleViewHistory" prefHeight="43.0" prefWidth="175.0" text="Rental History" textAlignment="CENTER" textOverrun="CLIP">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <effect>
+                  <DropShadow blurType="GAUSSIAN" height="5.79" radius="2.6875" spread="0.73" width="6.96">
+                     <color>
+                        <Color red="0.5473684072494507" green="0.5433138608932495" blue="0.5433138608932495" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+   <effect>
+      <DropShadow height="122.24" radius="58.864999999999995" spread="0.21" width="115.22">
+         <color>
+            <Color red="0.7894737124443054" green="0.7836257219314575" blue="0.7836257219314575" />
+         </color>
+      </DropShadow>
+   </effect>
+</AnchorPane>
